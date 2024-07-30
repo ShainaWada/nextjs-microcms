@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 
 type Props = {
   date: string;
-}
+};
 
 export default function Date({ date }: Props) {
   return (
@@ -11,5 +11,5 @@ export default function Date({ date }: Props) {
       <Image src="/clock.svg" alt="" width={16} height={16} priority />
       {date}
     </span>
-  )
+  );
 }
